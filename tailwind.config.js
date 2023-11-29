@@ -16,6 +16,6 @@ module.exports = {
     plugins: [
         nextui(),
         require("@tailwindcss/aspect-ratio"),
-        // require("@tailwindcss/forms"), // enable this plugin to reproduce the input element style issue
+        require("@tailwindcss/forms"), // enable this plugin to reproduce the input element style issue
     ],
 };

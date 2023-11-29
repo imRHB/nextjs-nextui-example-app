@@ -1,7 +1,5 @@
 # Next JS + Next UI Example App
 
-I wanted to share with you a solution I found for the input component style issue in Next UI. I'm using `Headless UI`, and to improve the form style, I decided to use the `@tailwindcss/forms` package. I enabled this plugin on the `tailwind.config.js` file, but it caused some style issues with the Next UI input component.
+-   Enable `@tailwindcss/forms` plugin from `tailwind.config.js` file to reproduce the Next UI input component's style issue [#2026 (comment)](https://github.com/nextui-org/nextui/issues/2026#issue-2008632103) that I created earlier
 
-If you'd like to reproduce the issue, simply enable the `@tailwindcss/forms` plugin from `tailwind.config.js`. However, please note that disabling this plugin causing another issue when using forms.
-
-Feel free to take a look at my repo.
+**NOTE**: Please note that, disabling `@tailwindcss/forms` plugin causing another issue [#2026 (comment)](https://github.com/nextui-org/nextui/issues/2026#issuecomment-1831824101).
